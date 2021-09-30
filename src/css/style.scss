@@ -1,0 +1,26 @@
+@import"../libs/fontello/css/fontello.css";
+@import "../fonts/abode/stylesheet.css";
+@import "../libs/owlcarousel/owl.carousel.min.css";
+@import "../libs/owlcarousel/owl.theme.default.min.css";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+$black : #212121;
+$green : #00897B;
+
+@import "column";
+@import "btn";
+@import "header";
+@import "home";
+@import "services";
+
